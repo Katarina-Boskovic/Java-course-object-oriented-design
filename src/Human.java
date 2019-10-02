@@ -6,8 +6,14 @@ public class Human {
     String eyeColour;
 
     // constructor method (same name as class) - do not have to define it explicitly
-    public Human() {
 
+
+    public Human(String name, int age, int heightInches, String eyeColour) {
+        // this: variable pointing to the current object
+        this.name = name;
+        this.age = age;
+        this.heightInches = heightInches;
+        this.eyeColour = eyeColour;
     }
 
     // methods
