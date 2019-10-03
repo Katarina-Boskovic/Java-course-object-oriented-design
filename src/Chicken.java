@@ -4,9 +4,5 @@ public class Chicken extends Bird {
         super(type, age, gender);
     }
 
-    // overriding the method inherited from Bird
-    public void fly(){
-        System.out.println("not able to fly");
-    }
 
 }
