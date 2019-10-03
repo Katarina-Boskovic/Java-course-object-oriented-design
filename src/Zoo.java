@@ -9,6 +9,9 @@ public class Zoo {
         Bird bird1 = new Bird("bird", 1, "m");
         bird1.eat();
         bird1.fly();
+
+        Chicken chicken1 = new Chicken("bird", 2, "f");
+        chicken1.fly();
     }
 
 }
