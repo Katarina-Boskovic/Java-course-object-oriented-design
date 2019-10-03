@@ -1,5 +1,5 @@
 // parent class / superclass
-public class Animal {
+public abstract class Animal {
 
     String type;
     int age;
@@ -23,4 +23,9 @@ public class Animal {
     public void sleep(){
         System.out.println("It's swimming...");
     }
+
+    // not implementing moving here, has to be implemented in child classes
+    public abstract void move();
+
+    // cannot create an instance of an Animal
 }
