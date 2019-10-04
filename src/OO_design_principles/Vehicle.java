@@ -2,7 +2,7 @@ package OO_design_principles;
 
 public class Vehicle {
 
-    // vehicles respond to 3 messages:
+    // vehicles respond to 3 messages by carrying out that behaviour
     public void startEngine(){
         System.out.println("Starting my engine");
     }
