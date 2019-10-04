@@ -1,3 +1,5 @@
+package introductory_principles;
+
 // child class
 public class Bird extends Animal{
 

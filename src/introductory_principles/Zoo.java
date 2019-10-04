@@ -1,3 +1,5 @@
+package introductory_principles;
+
 public class Zoo {
 
     public static void main(String args[]){
@@ -10,7 +12,7 @@ public class Zoo {
         Sparrow sparrow1 = new Sparrow("bird", 1, "f");
         sparrow1.fly();
 
-        // can use Animal as type, the object is of type sparrow but variable is of type animal
+        // can use introductory_principles.Animal as type, the object is of type sparrow but variable is of type animal
         Animal sparrow2 = new Sparrow("bird", 3, "m");
         sparrow2.move();
 
@@ -23,8 +25,8 @@ public class Zoo {
         Flyable flyingBird = new Sparrow("bird", 1, "male");
         flyingBird.fly();
 
-        // will not work, Bird doesn't implement Flyable type
-        // Flyable flyingBird2 = new Bird("bird", 3, "female");
+        // will not work, introductory_principles.Bird doesn't implement introductory_principles.Flyable type
+        // introductory_principles.Flyable flyingBird2 = new introductory_principles.Bird("bird", 3, "female");
     }
 
     public static void moveAnimal(Animal animal){

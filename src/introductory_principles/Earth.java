@@ -1,15 +1,17 @@
+package introductory_principles;
+
 public class Earth {
 
     // entry point for all java applications, code executed sequentially
     public static void main(String args[]){
 
         /*
-        // define a variable (instance variable - points to the object) of type Human
-        Human tom;
+        // define a variable (instance variable - points to the object) of type introductory_principles.Human
+        introductory_principles.Human tom;
 
         // assign values to variable - object is created here
         // new: used when calling the constructor method when creating a new object
-        tom = new Human("Tom", 5, 72, "brown");
+        tom = new introductory_principles.Human("Tom", 5, 72, "brown");
 
         // when constructor not explicitly defined need to assign values separately
 

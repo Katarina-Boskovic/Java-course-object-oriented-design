@@ -1,3 +1,5 @@
+package introductory_principles;
+
 // parent class / superclass
 public abstract class Animal {
 
@@ -27,5 +29,5 @@ public abstract class Animal {
     // not implementing moving here, has to be implemented in child classes
     public abstract void move();
 
-    // cannot create an instance of an Animal
+    // cannot create an instance of an introductory_principles.Animal
 }
