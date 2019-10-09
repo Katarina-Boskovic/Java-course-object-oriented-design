@@ -1,8 +1,6 @@
 package liskov_substitution_principle;
 
-public abstract class Teacher {
-
-    public abstract void teach();
+public class SchoolStaff {
 
     private void makeAnnouncements(){
         System.out.println("made announcements");
@@ -21,7 +19,11 @@ public abstract class Teacher {
         takeAttendance();
         collectPaperwork();
         conductHallwayDuties();
-        performOtherResponsibilities();
     }
 
+    public static void main(String args[]){
+        MathTeacher mathTeacher1 = new MathTeacher();
+        mathTeacher1.performOtherResponsibilities();
+        mathTeacher1.teach();
+    }
 }
