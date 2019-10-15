@@ -53,7 +53,6 @@ public class User {
                 '}';
     }
 
-
     // nested class: has the build method that invokes the User object's constructor and passes itself to it
     public static class Builder{
 
